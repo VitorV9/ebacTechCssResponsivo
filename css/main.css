@@ -79,6 +79,10 @@ article {
 
 article img {
     margin-bottom: 15px;
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Força a caixa a ser quadrada */
+    object-fit: cover; /* Corta as sobras da imagem sem amassar */
+    border-radius: 4px;
 }
 
 article h3 {
