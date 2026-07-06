@@ -49,6 +49,13 @@ header a {
     font-weight: bold;
 }
 
+section img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover; 
+    border-radius: 4px;
+}
+
 section {
     padding: 40px 0;
 }
@@ -79,10 +86,6 @@ article {
 
 article img {
     margin-bottom: 15px;
-    width: 100%;
-    aspect-ratio: 1 / 1; /* Força a caixa a ser quadrada */
-    object-fit: cover; /* Corta as sobras da imagem sem amassar */
-    border-radius: 4px;
 }
 
 article h3 {
