@@ -107,7 +107,8 @@ button:hover {
     background-color: #274b9f;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 641px) {
+
     header {
         text-align: left;
     }
@@ -122,6 +123,18 @@ button:hover {
         margin-top: 0;
     }
 
+    .grid-produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .grid-produtos article {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     #sobre > div {
         display: flex;
         gap: 40px;
@@ -130,6 +143,7 @@ button:hover {
 
     #sobre img {
         width: 50%;
+        margin-bottom: 0;
     }
 
     #sobre p {
@@ -138,12 +152,6 @@ button:hover {
     }
 
     .grid-produtos {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-    }
-
-    .grid-produtos article {
-        margin-bottom: 0;
     }
 }
