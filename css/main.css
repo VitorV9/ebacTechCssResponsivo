@@ -106,3 +106,44 @@ button {
 button:hover {
     background-color: #274b9f;
 }
+
+@media screen and (min-width: 768px) {
+    header {
+        text-align: left;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header ul {
+        margin-top: 0;
+    }
+
+    #sobre > div {
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    #sobre img {
+        width: 50%;
+    }
+
+    #sobre p {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .grid-produtos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .grid-produtos article {
+        margin-bottom: 0;
+    }
+}
